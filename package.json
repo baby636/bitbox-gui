@@ -9,7 +9,9 @@
     "build": "webpack",
     "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=assets/icons/mac/icon.icns --prune=true --out=release-builds",
     "create-installer-mac": "electron-installer-dmg ./release-builds/BITBOX-darwin-x64/BITBOX.app BITBOX --out=release-builds --overwrite --icon=assets/icons/mac/icon.icns",
-    "test": "mocha --compilers js:babel-core/register"
+    "test": "mocha --compilers js:babel-core/register",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": "https://github.com/bigearth/bitbox-electron",
   "keywords": [
@@ -28,7 +30,7 @@
     "@fortawesome/fontawesome-free-regular": "^5.0.9",
     "@fortawesome/fontawesome-free-solid": "^5.0.9",
     "@fortawesome/react-fontawesome": "0.0.18",
-    "axios": "^0.18.0",
+    "axios": "^0.20.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
@@ -42,14 +44,14 @@
     "body-parser": "^1.18.2",
     "chai": "^4.1.2",
     "cors": "^2.8.4",
-    "css-loader": "^0.28.9",
-    "electron": "^1.7.12",
-    "electron-packager": "^10.1.2",
+    "css-loader": "^2.0.0",
+    "electron": "^22.3.5",
+    "electron-packager": "^15.0.0",
     "electron-store": "^1.3.0",
     "express": "^4.16.2",
-    "mocha": "^5.0.1",
+    "mocha": "^10.1.0",
     "moment": "^2.20.1",
-    "node-sass": "^4.7.2",
+    "node-sass": "^7.0.2",
     "qrcode.react": "^0.7.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
@@ -58,13 +60,15 @@
     "react-redux": "^5.0.7",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
-    "react-syntax-highlighter": "^7.0.0",
+    "react-syntax-highlighter": "^13.0.0",
     "react-toggle": "^4.0.2",
     "redux": "^3.7.2",
     "sass-loader": "^6.0.6",
     "satoshi-bitcoin": "^1.0.4",
     "style-loader": "^0.20.1",
     "underscore": "^1.8.3",
-    "webpack": "^3.10.0"
-  }
+    "webpack": "^4.26.0",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }

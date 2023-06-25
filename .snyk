@@ -1,0 +1,297 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:call:20160705':
+    - bitbox-cli > corsproxy > hapi > call:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:call:20160705'
+        path: bitbox-cli > corsproxy > hapi > call
+  'npm:hoek:20180212':
+    - bitbox-cli > corsproxy > good > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > good > hoek
+    - bitbox-cli > corsproxy > good-console > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > good-console > hoek
+    - bitbox-cli > corsproxy > h2o2 > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > h2o2 > hoek
+    - bitbox-cli > corsproxy > hapi > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > hoek
+    - bitbox-cli > corsproxy > inert > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > inert > hoek
+    - bitbox-cli > corsproxy > vision > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > vision > hoek
+    - bitbox-cli > corsproxy > hapi > topo > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > topo > hoek
+    - bitbox-cli > corsproxy > good > joi > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > good > joi > hoek
+    - bitbox-cli > corsproxy > h2o2 > joi > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > h2o2 > joi > hoek
+    - bitbox-cli > corsproxy > hapi > joi > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > joi > hoek
+    - bitbox-cli > corsproxy > inert > joi > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > inert > joi > hoek
+    - bitbox-cli > corsproxy > vision > joi > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > vision > joi > hoek
+    - bitbox-cli > corsproxy > h2o2 > boom > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > h2o2 > boom > hoek
+    - bitbox-cli > corsproxy > hapi > boom > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > boom > hoek
+    - bitbox-cli > corsproxy > inert > boom > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > inert > boom > hoek
+    - bitbox-cli > corsproxy > vision > boom > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > vision > boom > hoek
+    - bitbox-cli > corsproxy > good > wreck > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > good > wreck > hoek
+    - bitbox-cli > corsproxy > h2o2 > wreck > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > h2o2 > wreck > hoek
+    - bitbox-cli > corsproxy > good-console > good-squeeze > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > good-console > good-squeeze > hoek
+    - bitbox-cli > corsproxy > hapi > accept > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > accept > hoek
+    - bitbox-cli > corsproxy > hapi > ammo > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > ammo > hoek
+    - bitbox-cli > corsproxy > inert > ammo > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > inert > ammo > hoek
+    - bitbox-cli > corsproxy > hapi > call > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > call > hoek
+    - bitbox-cli > corsproxy > hapi > catbox > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > catbox > hoek
+    - bitbox-cli > corsproxy > hapi > catbox-memory > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > catbox-memory > hoek
+    - bitbox-cli > corsproxy > hapi > heavy > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > heavy > hoek
+    - bitbox-cli > corsproxy > hapi > iron > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > iron > hoek
+    - bitbox-cli > corsproxy > hapi > kilt > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > kilt > hoek
+    - bitbox-cli > corsproxy > hapi > mimos > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > mimos > hoek
+    - bitbox-cli > corsproxy > hapi > shot > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > shot > hoek
+    - bitbox-cli > corsproxy > hapi > statehood > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > statehood > hoek
+    - bitbox-cli > corsproxy > hapi > subtext > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > subtext > hoek
+    - bitbox-cli > corsproxy > good > joi > topo > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > good > joi > topo > hoek
+    - bitbox-cli > corsproxy > h2o2 > joi > topo > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > h2o2 > joi > topo > hoek
+    - bitbox-cli > corsproxy > hapi > joi > topo > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > joi > topo > hoek
+    - bitbox-cli > corsproxy > inert > joi > topo > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > inert > joi > topo > hoek
+    - bitbox-cli > corsproxy > vision > joi > topo > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > vision > joi > topo > hoek
+    - bitbox-cli > corsproxy > hapi > catbox > joi > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > catbox > joi > hoek
+    - bitbox-cli > corsproxy > hapi > heavy > joi > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > heavy > joi > hoek
+    - bitbox-cli > corsproxy > hapi > statehood > joi > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > statehood > joi > hoek
+    - bitbox-cli > corsproxy > good > wreck > boom > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > good > wreck > boom > hoek
+    - bitbox-cli > corsproxy > h2o2 > wreck > boom > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > h2o2 > wreck > boom > hoek
+    - bitbox-cli > corsproxy > hapi > accept > boom > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > accept > boom > hoek
+    - bitbox-cli > corsproxy > hapi > ammo > boom > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > ammo > boom > hoek
+    - bitbox-cli > corsproxy > inert > ammo > boom > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > inert > ammo > boom > hoek
+    - bitbox-cli > corsproxy > hapi > call > boom > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > call > boom > hoek
+    - bitbox-cli > corsproxy > hapi > catbox > boom > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > catbox > boom > hoek
+    - bitbox-cli > corsproxy > hapi > cryptiles > boom > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > cryptiles > boom > hoek
+    - bitbox-cli > corsproxy > hapi > heavy > boom > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > heavy > boom > hoek
+    - bitbox-cli > corsproxy > hapi > iron > boom > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > iron > boom > hoek
+    - bitbox-cli > corsproxy > hapi > statehood > boom > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > statehood > boom > hoek
+    - bitbox-cli > corsproxy > hapi > subtext > boom > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > subtext > boom > hoek
+    - bitbox-cli > corsproxy > hapi > subtext > wreck > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > subtext > wreck > hoek
+    - bitbox-cli > corsproxy > hapi > statehood > iron > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > statehood > iron > hoek
+    - bitbox-cli > corsproxy > hapi > subtext > content > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > subtext > content > hoek
+    - bitbox-cli > corsproxy > hapi > subtext > pez > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > subtext > pez > hoek
+    - bitbox-cli > corsproxy > hapi > catbox > joi > topo > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > catbox > joi > topo > hoek
+    - bitbox-cli > corsproxy > hapi > heavy > joi > topo > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > heavy > joi > topo > hoek
+    - bitbox-cli > corsproxy > hapi > statehood > joi > topo > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > statehood > joi > topo > hoek
+    - bitbox-cli > corsproxy > hapi > subtext > wreck > boom > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > subtext > wreck > boom > hoek
+    - bitbox-cli > corsproxy > hapi > iron > cryptiles > boom > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > iron > cryptiles > boom > hoek
+    - bitbox-cli > corsproxy > hapi > statehood > cryptiles > boom > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > statehood > cryptiles > boom > hoek
+    - bitbox-cli > corsproxy > hapi > statehood > iron > boom > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > statehood > iron > boom > hoek
+    - bitbox-cli > corsproxy > hapi > subtext > content > boom > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > subtext > content > boom > hoek
+    - bitbox-cli > corsproxy > hapi > subtext > pez > boom > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > subtext > pez > boom > hoek
+    - bitbox-cli > corsproxy > hapi > subtext > pez > content > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > subtext > pez > content > hoek
+    - bitbox-cli > corsproxy > hapi > subtext > pez > b64 > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > subtext > pez > b64 > hoek
+    - bitbox-cli > corsproxy > hapi > subtext > pez > nigel > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > subtext > pez > nigel > hoek
+    - bitbox-cli > corsproxy > hapi > statehood > iron > cryptiles > boom > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          bitbox-cli > corsproxy > hapi > statehood > iron > cryptiles > boom >
+          hoek
+    - bitbox-cli > corsproxy > hapi > subtext > pez > content > boom > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > subtext > pez > content > boom > hoek
+    - bitbox-cli > corsproxy > hapi > subtext > pez > nigel > vise > hoek:
+        patched: '2023-06-25T14:43:01.580Z'
+        id: 'npm:hoek:20180212'
+        path: bitbox-cli > corsproxy > hapi > subtext > pez > nigel > vise > hoek
